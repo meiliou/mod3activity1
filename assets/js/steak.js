@@ -9,12 +9,12 @@ var serveBurger = function () {
         window.alert("Here's a cheeseburger. Enjoy!");
     }
     // if answer is No (aka steakEater=false)
-    if (steakEater==="NO" || steakEater ==="no" ||steakEater==="No") {
+    else if (steakEater==="NO" || steakEater ==="no" ||steakEater==="No") {
         window.alert("Here's an Impossible burger. Enjoy!")
     }
     // if answer is something else
     else {
-        window.alert("Please provide a Yes/No answer")
+        window.alert("You must provide a Yes/No answer, please try again.");
     }
 
 }
